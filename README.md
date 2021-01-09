@@ -24,4 +24,4 @@ while guess != random:
         guess = int(input("Guess the number between your range: "))
         
 if guess == random:
-    print ('Congratulations! You guessed the number')
+    print ('Congratulations! You guessed the number') 
