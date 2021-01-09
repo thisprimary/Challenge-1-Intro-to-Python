@@ -1,4 +1,5 @@
 # Challenge-1-Intro-to-Python
+```
 import random
 
 range_1 = None
@@ -74,3 +75,4 @@ if guess == random:
     numCount = numCount + 1
     print ('Congratulations! You guessed the number and it took you',numCount,'attempts')
     print ("Thanks for playing!")
+```
