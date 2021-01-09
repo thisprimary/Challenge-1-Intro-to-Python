@@ -6,7 +6,7 @@ range_2 = None
 guess = None
 numCount = 0 
 
-print ('Welcome to the number guessing game!')
+print ('Welcome to the Number Guessing Game!')
 
 while type(range_1) is not int:
     range_1 = (input("Choose your starting range: "))
@@ -39,7 +39,7 @@ while guess != random:
     if guess > random:
         print ('Incorrect. The number is lower')
         numCount = numCount + 1
-        guess = input("Guess the number between your range: ")
+        guess = input("Guess a number between your range: ")
         while type(guess) is not int:       
             if guess.isdigit():
                 guess = int(guess)
@@ -50,7 +50,7 @@ while guess != random:
     elif guess < random:
         print ('Incorrect. The number is higher')
         numCount = numCount + 1
-        guess = (input("Guess the number between your range: "))
+        guess = (input("Guess a number between your range: "))
         while type(guess) is not int:       
             if guess.isdigit():
                 guess = int(guess)
@@ -61,7 +61,7 @@ while guess != random:
     else:
         print ("Error. Only integers are allowed")
         numCount = numCount + 1
-        guess = (input("Guess the number between your range: "))
+        guess = (input("Guess a number between your range: "))
         while type(guess) is not int:       
             if guess.isdigit():
                 guess = int(guess)
