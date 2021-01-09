@@ -4,8 +4,9 @@ import random
 range_1 = int(input("Choose your starting range: "))
 range_2 = int(input("Choose your ending range: "))
 
-if range_2 > range_1:
-    print ("Please choose a number higher for range_2 than range_1")
+while range_1 >= range_2: 
+    print ("Ending range is lower than beginning range.")
+    range_2 = int(input("Choose your a new ending range: "))
 
 random = random.randint(range_1,range_2)
 
