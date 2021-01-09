@@ -27,8 +27,6 @@ while range_1 >= range_2:
     
 random = random.randint(range_1,range_2)
 
-print (random)
-
 while type(guess) is not int:       
     guess = (input("Guess the number between your range: "))
     if guess.isdigit():
