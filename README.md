@@ -5,6 +5,8 @@ range_1 = None
 range_2 = None
 guess = None
 
+print ('Welcome to the number guessing game!')
+
 while type(range_1) is not int:
     range_1 = (input("Choose your starting range: "))
     if range_1.isdigit():
@@ -48,3 +50,4 @@ while guess != random:
         
 if guess == random:
     print ('Congratulations! You guessed the number')
+    print ("Thanks for playing!")
