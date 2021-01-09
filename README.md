@@ -28,15 +28,12 @@ while range_1 >= range_2:
     
 random = random.randint(range_1,range_2)
 
-print (random)
-
 while type(guess) is not int:       
     guess = (input("Guess the number between your range: "))
     if guess.isdigit():
         guess = int(guess)
     else:
         print ("Input is not valid, please enter an integer")
-
 
 while guess != random:
     if guess > random:
@@ -75,5 +72,6 @@ while guess != random:
 
 if guess == random:
     numCount = numCount + 1
-    print ('Congratulations! You guessed the number and it took you',numCount,' attempts')
+    print ('Congratulations! You guessed the number and it took you',numCount,'attempts')
     print ("Thanks for playing!")
+    
